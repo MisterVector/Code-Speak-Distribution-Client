@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="173.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.codespeak.distribution.client.scenes.SettingsSceneController">
+   <children>
+      <Label fx:id="settingsTitleLabel" alignment="TOP_CENTER" layoutX="25.0" layoutY="14.0" prefHeight="30.0" prefWidth="615.0" text="Settings for %p">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="rememberCurrentlySelectedCategoryCheck" layoutX="25.0" layoutY="70.0" mnemonicParsing="false" text="Remember Currently Selected Category">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkClientUpdateOnStartupCheck" layoutX="333.0" layoutY="105.0" mnemonicParsing="false" text="Check Client Update On Startup">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="backupBeforeRemovingTextFilesCheck" layoutX="25.0" layoutY="105.0" mnemonicParsing="false" text="Backup Before Removing Text Files">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="379.0" layoutY="137.0" mnemonicParsing="false" onAction="#onOkButtonClick" prefHeight="25.0" prefWidth="120.0" text="OK" />
+      <Button layoutX="516.0" layoutY="137.0" mnemonicParsing="false" onAction="#onCloseButtonClick" prefHeight="25.0" prefWidth="120.0" text="Close" />
+      <CheckBox fx:id="notifyOfNewPrograms" layoutX="333.0" layoutY="72.0" mnemonicParsing="false" text="Notify Of New Programs">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

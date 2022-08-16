@@ -1,0 +1,38 @@
+# Git stuff
+.gitk
+*.orig
+
+# Netbeans stuff
+build/
+dist/
+localonly/
+nbproject/
+build.xml
+manifest.mf
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Other stuff
+/backups/
+/logs/
+extra/
+/programs/
+data.json
+settings.json
+Updater.log
+Read Me.pdf
